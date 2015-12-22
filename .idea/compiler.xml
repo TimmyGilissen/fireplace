@@ -22,11 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="fireplace" />
+        <module name="fireplace-backend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="fireplace" target="1.5" />
+      <module name="fireplace" target="1.8" />
+      <module name="fireplace-backend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

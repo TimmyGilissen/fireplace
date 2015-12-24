@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fireplace.iml" filepath="$PROJECT_DIR$/fireplace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fireplace-api/fireplace-api.iml" filepath="$PROJECT_DIR$/fireplace-api/fireplace-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/fireplace-backend/fireplace-backend.iml" filepath="$PROJECT_DIR$/fireplace-backend/fireplace-backend.iml" />
     </modules>
   </component>

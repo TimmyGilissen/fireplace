@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-stream-codec:1.0.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-codec/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-codec-1.0.0.BUILD-20151222.053114-213.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-codec/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-codec-1.0.0.BUILD-20151222.154719-216.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-codec/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-codec-1.0.0.BUILD-20151222.053114-213-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-codec/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-codec-1.0.0.BUILD-20151222.154719-216-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-codec/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-codec-1.0.0.BUILD-20151222.053114-213-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-codec/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-codec-1.0.0.BUILD-20151222.154719-216-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

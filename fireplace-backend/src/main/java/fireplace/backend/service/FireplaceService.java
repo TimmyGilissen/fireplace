@@ -1,7 +1,10 @@
 package fireplace.backend.service;
 
-/**
- * Created by timmygilissen on 21/12/15.
- */
-public class FireplaceService {
+import org.springframework.stereotype.Service;
+
+@Service
+public interface FireplaceService {
+
+    void StartFireplace();
+
 }

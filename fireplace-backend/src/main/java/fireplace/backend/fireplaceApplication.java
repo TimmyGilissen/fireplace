@@ -1,7 +1,17 @@
 package fireplace.backend;
 
-/**
- * Created by timmygilissen on 21/12/15.
- */
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@EnableDiscoveryClient
+@SpringBootApplication
 public class fireplaceApplication {
+    public static void main (String[] args){
+
+        SpringApplication.run(fireplaceApplication.class,args);
+
+    }
+
 }

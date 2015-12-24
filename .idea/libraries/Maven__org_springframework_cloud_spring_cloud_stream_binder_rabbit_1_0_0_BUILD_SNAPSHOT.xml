@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-stream-binder-rabbit:1.0.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-1.0.0.BUILD-20151222.053114-196.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-1.0.0.BUILD-20151222.154719-199.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-1.0.0.BUILD-20151222.053114-196-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-1.0.0.BUILD-20151222.154719-199-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-1.0.0.BUILD-20151222.053114-196-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream-binder-rabbit/1.0.0.BUILD-SNAPSHOT/spring-cloud-stream-binder-rabbit-1.0.0.BUILD-20151222.154719-199-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

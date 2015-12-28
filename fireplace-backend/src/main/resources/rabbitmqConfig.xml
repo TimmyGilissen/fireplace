@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
 
-    <bean id="rabbitConnFactory"
-          class="org.springframework.amqp.rabbit.connection.CachingConnectionFactory">
-        <constructor-arg><value>rabbitmq-4f3b7bb6.timmygilissen.svc.tutum.io</value></constructor-arg>
-        <property name="username" value="timmygilissen" />
-        <property name="password" value="Gilit0809" />
-        <property name="virtualHost" value="fireplace" />
-        <property name="port" value="5672" />
-    </bean>
+    <context:annotation-config/>
 
-    <!-- Spring AMQP Template -->
-    <bean id="template"
-          class="org.springframework.amqp.rabbit.core.RabbitTemplate">
-        <property name="connectionFactory" ref="rabbitConnFactory" />
-        <property name="routingKey" value="fireplace"/>
-        <property name="queue" value="fireplace"/>
-    </bean>
+    <!-- Connection factory for connection establishment -->
+    <rabbit:connection-factory id="connectionFactory"
+                               host="gilit-rabbitmq-1.timmygilissen.cont.tutum.io"
+                               username="admin"
+                               password="Gilit0809"
+                               port="5672"/>
 
-    <!-- Spring AMQP Admin -->
-    <bean id="admin" class="org.springframework.amqp.rabbit.core.RabbitAdmin">
-        <constructor-arg ref="rabbitConnFactory" />
-    </bean>
+    <!-- Create an exchange -->
+    <rabbit:direct-exchange name="fireplace.exchange" id="directExchange"/>
+
+    <!-- Template for sending messages -->
+    <rabbit:template id="amqpTemplate" connection-factory="connectionFactory" exchange="directExchange"/>
+
+    <!-- Admin object for creation of queues -->
+    <rabbit:admin connection-factory="connectionFactory" id="amqpAdmin" />
+
 </beans>
